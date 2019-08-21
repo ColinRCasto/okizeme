@@ -1,0 +1,55 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+characters = Character.create([
+    {name: 'General Knowledge'},
+    {name: 'Akuma'},
+    {name: 'Claudio Serafino'},
+    {name: 'Gigas'},
+    {name: 'Jack-7'},
+    {name: 'Josie Rizal'},
+    {name: 'Katarina Alves'},
+    {name: 'Kazumi Mishima'},
+    {name: 'Lucky Chloe'},
+    {name: 'Master Raven'},
+    {name: 'Saheen'},
+    {name: 'Alisa Bosconovitch'},
+    {name: 'Asuka Kazama'},
+    {name: 'Bob Richards'},
+    {name: 'Bryan Fury'},
+    {name: 'Devil Jin'},
+    {name: 'Eddy Gordo'},
+    {name: 'Feng Wei'},
+    {name: 'Heihachi Mishima'},
+    {name: 'Hwoarang'},
+    {name: 'Jin Kazama'},
+    {name: 'Kazuya Mishima'},
+    {name: 'King'},
+    {name: 'Kuma/Panda'},
+    {name: 'Lars Alexandersson'},
+    {name: 'Lee Chaolan/Violet'},
+    {name: 'Leo Kliesen'},
+    {name: 'Lili De Rochefort'},
+    {name: 'Ling Xiaoyu'},
+    {name: 'Marshall Law'},
+    {name: 'Miguel Caballero Rojo'},
+    {name: 'Nina Williams'},
+    {name: 'Paul Phoenix'},
+    {name: 'Sergei Dragunov'},
+    {name: 'Steve Fox'},
+    {name: 'Yoshimitsu'},
+    {name: 'Eliza'},
+    {name: 'Anna Williams'},
+    {name: 'Armor King'},
+    {name: 'Craig Marduk'},
+    {name: 'Julia Chang'},
+    {name: 'Geese Howard'},
+    {name: 'Neegan'},
+    {name: 'Noctis Lucis Caelum'},
+    {name: 'Lei Wulong'},
+])
